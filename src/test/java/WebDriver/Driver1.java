@@ -18,7 +18,7 @@ public class Driver1 {
     public static FileInputStream PropFIle;
 
     public static Properties FileReader() throws IOException {
-        PropFIle = new FileInputStream("TestData.properties");
+        PropFIle = new FileInputStream("C:\\Users\\venkatakrishna.kode\\eclipse-workspace\\JenkinsRun\\src\\test\\java\\WebDriver\\TestData.properties");
         Prop = new Properties();
         Prop.load(PropFIle);
         return Prop;
